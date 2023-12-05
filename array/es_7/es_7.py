@@ -1,19 +1,11 @@
 numeri = []
+numero = int(input("Inserisci numero: "))
+while numero != 0:
+    numeri.append(numero)
+    numero = int(input("Inserisci numero: "))
 
-while True:
-    num = int(input("Inserisci un numero > 0 (termina la serie con 0): "))
-    
-    
-    if(num == 0):
-        if(len(numeri) % 2 == 0):
-            print("Pari")
-        else:
-            print("Dispari")
-        break
+if len(numeri) % 2 == 0:
+    print("Dimensione array pari")
+else:
+    print("Dimensione array dispari")
 
-    if(num > 0):
-        numeri.append(num)
-    else:
-        break
-
-    

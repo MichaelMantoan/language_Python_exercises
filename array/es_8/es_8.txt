@@ -2,3 +2,18 @@ Progettare un algoritmo che effettui la lettura da tastiera di una serie di valo
 programma termina quando il dato immesso è pari a zero. Calcolare e stampare la media dei valori
 inseriri. Inoltre, stampare la sequenza di valori in ordine inverso rispetto a quello di inserimento. Un
 valore dovrà essere stampato soltanto se maggiore della media calcolata.
+
+Esempio:
+$ python3 es_8.py                                                                                           
+Inserisci numero: 5
+Inserisci numero: 6
+Inserisci numero: 4
+Inserisci numero: 2
+Inserisci numero: 3
+Inserisci numero: 366
+Inserisci numero: 32
+Inserisci numero: 0
+media:  59.714285714285715
+Numeri maggiori della media: 
+366
+

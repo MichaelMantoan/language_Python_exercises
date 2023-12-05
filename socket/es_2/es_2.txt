@@ -1,8 +1,12 @@
-Si progetti in linguaggio C un applicazione client server cosi
-strutturata:
+Si progetti un applicazione client-server così strutturata:
 il client legge una stringa dal file testo.txt la invia al server il
 quale la inverte e la rimanda al client che la stampa a video.
 Ad esempio se il file testo.txt contiene la stringa "ciao", il client al
 termine dell'esecuzione dovrà visualizzare la string "oaic"
-Il nome del file deve essere inserito come argomento del client ovvero:
-$ ./client.out "testo.txt"
+Il nome del file e la porta devono essere inseriti come argomenti del client ovvero:
+$ python3 client.py testo.txt 5010
+
+Esempio con file "testo.txt" contenente "ciao":
+$ python3 server.py 5010
+$ python3 client.py testo.txt 192.168.2.94 5010
+Stringa ricevuta dal server: oaic

@@ -1,10 +1,10 @@
-scrivere in C un programma che concatena in un unica stringa le stringhe
-chieste in input da riga di comando.
+scrivere un programma che concatena in un unica stringa le stringhe
+presenti nella riga di comando.
 
 
 Esempio:
-$./a.out ciao a tutti gli studenti
-ciao a tutti gli studenti
+$ python3 es_5.py ciao a tutti                                                                                
+ciao a tutti
 
 
 

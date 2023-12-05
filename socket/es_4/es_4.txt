@@ -1,5 +1,7 @@
-Si scriva un server in C che riceva in input 2 stringhe e le rispedisca al client 
+Si scriva un server che riceva in input 2 stringhe e le rispedisca al client 
 invertite.
-Ad esempio se il server riceve le stringe pippo pluto deve tornare otulp oppip.
-
-
+Esempio con stringhe "ciao" e "buongiorno":
+$ python3 server.py 5010
+$ python3 client.py ciao buongiorno 192.168.2.94 5010
+Stringa 1 reverse ricevuta dal server:  oaic
+Stringa 2 reverse ricevuta dal server:  onroignoub

@@ -1,1 +1,3 @@
-Creare un programma client server, in cui il server resta in ascolto e riceve files dai client. I client devono preventivamente inviare il nome del file, in modo che il server possa rifiutare files che già possiede. 
+Creare un programma client server, in cui il server resta in ascolto e riceve files dai client. 
+I client devono preventivamente inviare il nome del file, in modo che il server possa rifiutare 
+files che già possiede. 

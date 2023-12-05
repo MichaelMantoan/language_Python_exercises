@@ -3,11 +3,10 @@ dopo aver effettuato gli opportuni controlli, rispedisca al client 2 stringhe
 contenenti una le vocali e una le consonanti ottenute dalla stringa di partenza.
 
 esempio di invocazione del server:
-$./server -p 50000
+$ python3 server.py 50000
 
 esempio di invocazione del client:
-$./client <ip-server> <porta-server> <stringa>
-$./client 192.168.2.75 50000 ciao
+$ python3 client.py 127.0.0.1 50000
 
 
 

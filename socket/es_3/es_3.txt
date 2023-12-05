@@ -1,11 +1,12 @@
-Si progetti in linguaggio C un applicazione client server cosi
+Si progetti un applicazione client-server cosi
 strutturata:
 il client legge una stringa dal file testo.txt e un carattere a piacere
-inserito dall'utente.
+inserito dall'utente da riga di comando.
 Invia al server la stringa e il carattere.
-il server conta quante volte il carattere compare nella stringa e ritorna 
+Il server conta quante volte il carattere compare nella stringa e ritorna 
 il risultato al client.
 
-Esempio di esecuzione con file testo.txt contente la stringa "ciao":
-$ ./client.out "testo.txt" c
-	il carattere c compare 1 volta nella stringa ciao
+Esempio di esecuzione con file testo.txt contente la stringa "pippo":
+$ python3 server.py 5010
+$ python3 client.py testo.txt p 192.168.2.94 5010
+Il carattere p compare 3 volte

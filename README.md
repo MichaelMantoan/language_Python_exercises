@@ -1,8 +1,8 @@
-to lunch the python interpret: 
+to launch the python interpret: 
 
-```$ python```
+```$ python3```
 
 to execute:
 
-```$ python file.py```
+```$ python3 file.py```
 

@@ -1,6 +1,15 @@
 Chiedere in input 5 interi e inserirli in un array.
 Stampare a video l'array al contrario.
-Esempio: 
-input 5 6 9 11 12
-output 12 11 9 6 5
 
+Esempio: 
+$ python3 es_2.py                                                                                           
+Inserisci un numero:10
+Inserisci un numero:20
+Inserisci un numero:30
+Inserisci un numero:0
+Inserisci un numero:25
+25
+0
+30
+20
+10

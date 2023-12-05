@@ -1,20 +1,22 @@
-def Media(numeri):
-    media = sum(numeri) / len(numeri)
-    return media
 
 numeri = []
+numero = int(input("Inserisci numero: "))
+while numero != 0:
+    numeri.append(numero)
+    numero = int(input("Inserisci numero: "))
 
-while True:
-    num = int(input("Inserisci un numero > 0 (termina la serie con 0): "))
-    
-    if(num > 0):
-        numeri.append(num)
-    else:
-        break
-m = Media(numeri)
-print("Media dei numeri: ",m)
-print("\nvalori superiori alla media visualizzati all'inverso:\n")
-tmp = numeri[::-1]
-for i in range(len(numeri)):
-    if tmp[i] > m:
-        print(tmp[i])
+
+somma = 0
+for numero in numeri:
+    somma += numero
+
+media = somma / len(numeri)
+print("media: ", media)
+
+
+print("Numeri maggiori della media: ")
+reverse = numeri[::-1]
+for numero in reverse:
+    if numero >= media:
+        print(numero)
+

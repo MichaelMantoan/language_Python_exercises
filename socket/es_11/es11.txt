@@ -1,1 +1,3 @@
-Client invia un file al server, server ritorna md5 di quel file al client. Client controlla se il proprio md5 e quello ricevuto dal server corrispondono per garantire l'integritá del dato ricevuto dal server.
+Client invia un file al server, server ritorna md5 di quel file al client.
+Client controlla se il proprio md5 e quello ricevuto dal server corrispondono per garantire
+l'integritá del dato ricevuto dal server.

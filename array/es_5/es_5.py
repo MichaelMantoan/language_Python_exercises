@@ -1,9 +1,15 @@
 import sys
-str = ""
-for i in range(len(sys.argv)- 1):
-    str = sys.argv[1]
-    str+=sys.argv[i+1]
-print(str)
 
-    
+
+
+
+
+if len(sys.argv) < 2:
+    print("argomenti errati")
+    exit()
+
+concatenata = ""
+for i in range(1, len(sys.argv)):
+    concatenata += sys.argv[i] + " "
+print(concatenata)
 

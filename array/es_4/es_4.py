@@ -1,7 +1,19 @@
+
+import sys
+
+
 def inverti(stringa):
-    return stringa[::-1]
+    i = len(stringa) - 1
+    str_reverse = ""
+    while i >= 0:
+        str_reverse = str_reverse + stringa[i]
+        i = i - 1
+    return str_reverse
 
-stringa = input("inserisci stringa: ")
-print(inverti(stringa))
 
+if len(sys.argv) < 2:
+    print("argomenti errati")
+    exit()
+
+print(inverti(sys.argv[1]))
 

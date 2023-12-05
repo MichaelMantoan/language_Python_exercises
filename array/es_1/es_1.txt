@@ -1,2 +1,6 @@
 Popolare un array di interi di dimensione 4, stamparne a video il
 contenuto.
+
+Esempio:
+$ python3 es_1.py                                                                                           
+[1, 2, 3, 4]

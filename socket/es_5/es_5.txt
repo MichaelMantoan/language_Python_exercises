@@ -9,7 +9,7 @@ Il client una volta ricevuta la rubrica ordinata la scrive su un nuovo file di t
 Esempio di
 invocazione del client:
 
-$./client 192.168.1.50 50000 rubrica.txt rubricaOrdinata.txt
+$ python3 client.py 192.168.1.50 50000 rubrica.txt rubricaOrdinata.txt
 
 
 Dove 192.168.1.50 è l’ipotetico indirizzo ip del server e 50000 è la sua porta di
@@ -19,7 +19,7 @@ Il client deve controllare che argc e argv siano coerenti con il suo utilizzo.
 
 Esempio di invocazione del server:
 
-$./server -p 50000
+$ python3 server.py 50000
 
 Dove 50000 è la porta di ascolto.
 

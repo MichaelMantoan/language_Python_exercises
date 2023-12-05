@@ -1,7 +1,14 @@
 Scrivere un programma che dato un array di interi presi in input mostri
 in output se l'array ha dimensione pari o dispari quando viene inserito 0.
+
 Esempio:
-[1,1,2,1,2,1,2,2] => è pari
-[1,1,2] => dispari
-[3,3,4,5] => pari
-[1,2,1,2] => pari
+$ python3 es_7.py                                                                                           
+Inserisci numero: 5
+Inserisci numero: 9
+Inserisci numero: 8
+Inserisci numero: 4
+Inserisci numero: 6
+Inserisci numero: 6
+Inserisci numero: 1
+Inserisci numero: 0
+Dimensione array dispari

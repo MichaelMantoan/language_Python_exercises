@@ -1,13 +1,15 @@
 numeri = []
 
 for i in range(10):
-    num=int(input("Inserisci un numero: "))
-    numeri.append(num)
-print("\nnumeri pari\n")
-for num in numeri:
-    if num % 2 == 0:
-        print(num)
-print("\nnumeri dispari\n")
-for num in numeri:
-    if num % 2 != 0:
-        print(num)
+    numeri.append(int(input("Inserisci un numero: ")))
+pari = []
+dispari = []
+for numero in numeri:
+    if numero % 2 == 0:
+        pari.append(numero)
+    else:
+        dispari.append(numero)
+print("numeri pari: ", pari)
+print("numeri dispari: ", dispari)
+
+
