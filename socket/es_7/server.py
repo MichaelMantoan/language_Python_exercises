@@ -16,9 +16,12 @@ def prelVocCons(stringa):
             strConsonanti += stringa[i]
     
     return strVocali, strConsonanti
-            
-        
 
+
+if len(sys.argv)<2:
+    print("Errore negli argomenti <porta>")
+    exit()
+        
 argv = sys.argv
 
 HOST = ""
