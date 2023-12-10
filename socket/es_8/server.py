@@ -5,6 +5,9 @@ import socket
 def rimuovi_carattere(stringa, carattere):
     return stringa.replace(carattere, "")
 
+if len(sys.argv)<2:
+    print("Errore negli argomenti <porta>")
+    exit()
 
 PORT = int(sys.argv[1])
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

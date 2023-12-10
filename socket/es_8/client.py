@@ -1,6 +1,10 @@
 import socket
 import sys
 
+if len(sys.argv) < 4 or not os.path.exists(sys.argv[1]):
+    print("Errore negli argomenti<indirizzo ip> <porta> <stringa> <carattere> ")
+    exit()
+
 PORT = int(sys.argv[2])
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
